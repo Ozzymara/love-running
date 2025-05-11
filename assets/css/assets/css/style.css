@@ -25,7 +25,6 @@ h1 {
     color: #252525;
 }
 
-/* Removed empty lines */
 /* Header */
 header {
     background-color: #ffffff;
@@ -70,9 +69,7 @@ nav {
     top: 100%
 }
 
-
-/* Nav toggle */
-#nav-toggle:checked~nav {
+* Nav toggle */ #nav-toggle:checked~nav {
     display: block;
 }
 
@@ -92,7 +89,6 @@ main {
     margin-top: 47px;
 }
 
-
 /* Footer */
 footer {
     background-color: orange;
@@ -100,6 +96,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -108,18 +105,19 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
     .nav-toggle-label {
         display: none;
     }
-    
+
     #logo {
         font-size: 280%;
         line-height: 75px;
@@ -132,8 +130,8 @@ footer {
         margin-top: 79px;
     }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
-    }
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
